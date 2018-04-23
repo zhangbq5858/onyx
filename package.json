@@ -17,7 +17,6 @@
     "aws-sdk": "^2.222.1",
     "body-parser": "^1.18.2",
     "browserify": "^16.1.0",
-    "codemirror": "^5.36.0",
     "dynamodb": "^1.1.1",
     "express": "^4.16.2",
     "joi": "^13.1.2",
@@ -27,7 +26,7 @@
   },
   "cacheDirectories": [
     "node_modules",
-    "client/node_modules"
+    "reflection/node_modules"
   ],
   "keywords": [
     "heroku",
