@@ -8,7 +8,7 @@ const dynamo = require('dynamodb');
 const Joi    = require('joi');
 const AWS    = dynamo.AWS;
 
-dynamo.AWS.config.loadFromPath(process.env.HOME + '/.aws/credentials.json');
+// dynamo.AWS.config.loadFromPath(process.env.HOME + '/.aws/credentials.json');
 dynamo.AWS.config.update({region: "us-west-2"}); // region must be set
 dynamo.log.level('error'); // enabled log level 
 
