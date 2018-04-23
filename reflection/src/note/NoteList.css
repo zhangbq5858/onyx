@@ -1,0 +1,6 @@
+.complete-list-title, .uncomplete-list-title{
+    border: 1px solid black; 
+    /* margin-left: 40px; */
+    font-size: 24px;
+    /* -webkit-padding-start: 40px; */
+}

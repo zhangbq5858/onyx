@@ -1,0 +1,20 @@
+.trash-display {
+    margin-left:2px;
+    font-family:Arial, sans-serif;
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+    border: 1px solid black; 
+    position: absolute;
+    left: 30%;
+}
+
+.trash-display h4 {
+    width:100%;
+}
+
+
+.trash-quill{
+    height:calc(100% - 550px);
+    padding: 8px;
+}

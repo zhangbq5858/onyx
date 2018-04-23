@@ -1,0 +1,71 @@
+
+
+.question-face, .answer-face {
+    position:absolute;
+    width:100%;
+    height:600px;
+    overflow:hidden;
+    overflow-y: scroll;
+    background-color: rgb(224, 195, 185);
+  }
+
+  .wrap-container{
+    text-align: center;
+    height: 80%;
+  }
+
+  .cardWrap {
+    width:80%;
+    height:600px;
+    position: relative;
+    cursor:pointer;
+    -webkit-font-smoothing:antialiased;
+    display: inline-block;
+    margin-top: 5%;
+}
+
+h1{
+    padding:10px;
+    color:white;
+    line-height:24px;
+  }
+  
+.card-formcontrolstitle{
+  width: 100%;
+  top:2px;
+  height: 70px;
+  padding: 8px;
+}
+
+
+.card-formcontrolshint{
+  position: absolute;
+  top:80px;
+  bottom: 10px;
+  width: 100%;
+  padding: 8px;
+}
+
+.card-optionBar{
+  text-align: right;
+  padding-right: 20px;
+}
+
+.page-control{
+  text-align: center;
+}
+
+
+.answer-face .quill{
+  height:550px;
+  background-color: white;
+  margin:8px;
+  border:1px solid black;
+}
+.answer-face .ql-editor{
+  overflow:scroll;
+}
+
+.reviewquill{
+  height:calc(100% - 450px);
+}

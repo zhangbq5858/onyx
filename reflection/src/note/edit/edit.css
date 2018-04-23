@@ -1,0 +1,57 @@
+.control-bar{
+    display:inline-block;
+    width:30%;
+    height: 100%;
+    background-color: rgb(204, 206, 207);
+    position: absolute;
+}
+
+
+.edit-display {
+    margin-left:2px;
+    font-family:Arial, sans-serif;
+    width: 70%;
+    height: 100%;
+    display: inline-block;
+    border: 1px solid black; 
+    position: absolute;
+    left: 30%;
+  }
+
+  .edit-optionBar{
+    text-align: right;
+    padding-right: 20px;
+  }
+
+  .edit-quill{
+      height:calc(100% - 500px);
+      padding: 8px;
+  }
+
+  .ql-editor{
+    overflow:scroll;
+  }
+
+  #modal-root {
+    position: relative;
+    z-index: 999;
+  }
+  
+  .modal{
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .info-popover{
+    background-color:white;
+  }
+
+  .ql-editor p{
+    white-space: pre;
+  }
+

@@ -1,0 +1,31 @@
+html, body, #root, .reflection, .main{
+    height: 100%;
+    width: 100%; 
+  }
+
+  .main-bar{
+    display: inline-block;
+    background-color: rgb(44, 68, 83);
+    height: 100%;
+    width:13%;
+    position: absolute;
+  }
+  
+  .page-region{
+    position: absolute;
+    left:13%;
+    width:87%;
+    height:100%;
+    display: inline-block;
+    z-index: 0;
+  }
+
+  .popover{
+    height: 500px;
+    max-width:1000px;
+    width:330px;
+  }
+  
+  
+  
+  

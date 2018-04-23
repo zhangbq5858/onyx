@@ -1,0 +1,85 @@
+
+.head-navbar{
+    background:rgba(122, 204, 245, 0.2);
+    margin: 0%;
+    margin-bottom: 0%;
+}
+
+.content{
+    background:rgba(77, 133, 197, 0.2);
+    margin-bottom: 0%;
+    color:   powderblue;
+    height: 550px;
+}
+
+.foot-navbar{
+    height: 70px;
+    background:rgba(41, 56, 110, 0.3);
+    margin-bottom: 0%;
+}
+
+.button-bar-all{
+    display: inline-block;
+}
+.brand{
+    font-size: 35px;
+    font-style: oblique;
+    color:rgb(89, 202, 240);
+    margin-left: -90px;
+}
+.login-button{
+    background: rgba(245, 83, 137, 0.2);
+    width: 90px;
+    height: 90px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    margin-right:20px;
+    color:powderblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.login-button span{
+    line-height: 70px; 
+    height: 50px; 
+    text-align: center; 
+    width: 50px;
+}
+
+
+.signup-button{
+    background: rgb(37, 111, 247,0.2);
+    width: 90px;
+    height: 90px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    margin-right:-100px;
+    color:powderblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.signup-button span{
+    line-height: 70px; 
+    height: 50px; 
+    text-align: center; 
+    width: 50px;
+}
+.button-bar-all{
+    display: form-inline;
+}
+.foot-nav-ul{
+    width: 100%;
+}
+
+ul li{
+    margin-left: 5%;
+    display: inline-block;
+    list-style: disc;
+}
+
+a{
+    color:powderblue;
+}
